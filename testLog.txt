@@ -1,0 +1,33 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/golsiepie/ProgrammingProjects/Grantawish/project[0m
+[0m[[0minfo[0m] [0mSet current project to Grantawish (in build file:/Users/golsiepie/ProgrammingProjects/Grantawish/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/golsiepie/ProgrammingProjects/Grantawish/target/scala-2.11/classes...[0m
+[[37minfo[0m] - application - Creating Pool for datasource 'default'
+[[37minfo[0m] - application - Shutting down connection pool.
+******Creating dataset******
+*********testFind()********
+******The results*****[models.OrganizationProfile@7811b052]
+*org id::56e70cf721b8d1e54b7067e0::Address::Test Address
+*********testDeleteAll()********
+******Creating dataset******
+*********testDeleteById()********
+Test Organization::56e70cf721b8d1e54b7067e2
+*********testDeleteAll()********
+******Creating dataset******
+******testCreate()******
+*********testDeleteAll()********
+******Creating dataset******
+*********testGetAll()********
+***getAll**org id::56e70cf721b8d1e54b7067e7::Address::Test Address
+***getAll**org id::56e70cf721b8d1e54b7067e8::Address::Test Address2
+*********testDeleteAll()********
+[0m[[0minfo[0m] [0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
+[0m[[32msuccess[0m] [0mTotal time: 19 s, completed Mar 14, 2016 12:11:51 PM[0m
+[0m[[31merror[0m] [0mExpected ID character[0m
+[0m[[31merror[0m] [0mNot a valid command: PersistenceStore[0m
+[0m[[31merror[0m] [0mExpected project ID[0m
+[0m[[31merror[0m] [0mExpected configuration[0m
+[0m[[31merror[0m] [0mExpected ':' (if selecting a configuration)[0m
+[0m[[31merror[0m] [0mExpected key[0m
+[0m[[31merror[0m] [0mNot a valid key: PersistenceStore (similar: testListeners, test-listeners)[0m
+[0m[[31merror[0m] [0mPersistenceStore.ConnectionTest[0m
+[0m[[31merror[0m] [0m                ^[0m
